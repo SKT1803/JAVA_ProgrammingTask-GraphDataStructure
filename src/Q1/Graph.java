@@ -1,9 +1,6 @@
 //-----------------------------------------------------
 // Title: Graph Class
 // Author: Serdar Kemal Topkaya
-// ID: 71200082370
-// Section: 3
-// Assignment: 1
 // Description: This class represents our Graph structure and contains the customly created methods that are going to help us find,
 // the number of city you need to go through to reach city Y from the city X, path which will take the minimum amount of time (in minutes) required by to move from city X
 // to city Y, a total time through the path from city X to city Y.
