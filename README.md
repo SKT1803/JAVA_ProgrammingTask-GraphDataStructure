@@ -1,4 +1,53 @@
-<b>Implement your own graph data structure</b><br><br>
+# Java Graph Data Structure – Flight & Tour Pathfinding
+
+<b>Implementing my own graph data structure</b><br><br>
+
+This project implements a custom **Graph Data Structure in Java** to solve two real-world problems involving pathfinding. It avoids external libraries and uses only core Java logic for BFS/DFS-based traversal and time-aware routing.
+
+---
+
+## Features
+
+- Custom **undirected graph** representation
+- Uses **BFS**, **lexicographic comparison**, and **modulo logic** for time-based state changes
+- Handles:
+  - Airport state timing logic (Question 1)
+  - Path traversal with waypoints (Question 2)
+- Returns:
+  - Lexicographically smallest valid path
+  - Path length and total time
+
+---
+
+## Folder Structure
+JAVA_ProgrammingTask-GraphDataStructure
+<pre>
+├── src/
+│ ├── Q1/
+│ │ ├── Graph.java # Graph and algorithm for Question 1
+│ │ └── Main.java # Reads input and runs the Q1 solution
+│ ├── Q2/
+│ │ ├── Graph.java # Graph and DFS logic for Question 2
+│ │ └── Main.java # Entry point for Q2 solution
+├── .classpath
+├── .project
+├── README.md 
+</pre>
+
+---
+## How to Run
+
+1. Compile the project:
+  ```bash
+  javac src/*.java
+  ```
+2. Run with input file (Q1 or Q2):
+  ```bash
+  java -cp src Main < input1.txt
+  ```
+Or run interactively and enter input via terminal.
+
+---
 
 <h2>Question 1:</h2>
 You are a flight operations manager in a flight company and there are N cities and M
