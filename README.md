@@ -19,6 +19,19 @@ This project implements a custom **Graph Data Structure in Java** to solve two r
 
 ---
 
+
+## Technologies Used
+
+- **Java**
+- Custom **adjacency list** graph implementation
+- Algorithms:
+  - **Breadth-First Search** (BFS)
+  - **Lexicographical Path Selection**
+  - **State-aware traversal logic**
+  - **Recursive DFS** for tour discovery
+
+---
+
 ## Folder Structure
 JAVA_ProgrammingTask-GraphDataStructure
 <pre>
