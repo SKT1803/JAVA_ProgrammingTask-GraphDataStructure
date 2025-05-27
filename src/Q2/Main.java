@@ -1,6 +1,6 @@
 //-----------------------------------------------------
 // Title: Main Class
-// Author: Serdar Kemal Topkaya
+// Author: SKT
 // Description: This class reads the city numbers, bidirectional roads between them, loading and running time from the console.
 // Constructs the graph by building the edges between the cities (by calculating the number of cities and edges that it should contain) 
 // and calls the method that will find the lexicographically smallest path which will take the minimum amount 
@@ -9,7 +9,7 @@
 
 //-----------------------------------------------------
 //Title: Main Class
-//Author: Serdar Kemal Topkaya
+//Author: SKT
 //ID: 71200082370
 //Section: 3
 //Assignment: 1
