@@ -75,6 +75,15 @@ route is 5 minutes. The next lines gives the connections between the cities and 
 which city is the starting point and which city is the end point for this case.
 <br>
 <br>
+
+- `N`: Number of cities
+- `M`: Flight connections (bidirectional)
+- `T`: Time interval to switch states
+- `C`: Travel time per route
+- `U, V`: Connection between cities
+- `X Y`: Start and end cities
+  
+<br>
 <b>Sample Input:</b>
 <pre>
 5 5 3 5
@@ -122,6 +131,13 @@ In the first line it is given that we have 6 islands and 6 bidirectional paths b
 The next lines gives the connections between the islands and the last line gives which island is the
 starting point and which island should be included to the tour for this case.
 <br>
+<br>
+
+- `N`: Number of islands
+- `M`: Connections
+- `U, V`: Undirected paths
+- `X Y`: Start island and mandatory waypoint
+  
 <br>
 <b>Sample Input:</b>
 <pre>
